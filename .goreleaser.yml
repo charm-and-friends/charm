@@ -1,0 +1,11 @@
+includes:
+  - from_url:
+      url: charmbracelet/meta/main/goreleaser-semi.yaml
+
+variables:
+  binary_name: charm
+  description: "The Charm Tool and Library 🌟"
+  github_url: "https://github.com/charmbracelet/charm"
+  maintainer: "Christian Rocha <christian@charm.sh>"
+  brew_commit_author_name: "Christian Rocha"
+  brew_commit_author_email: "christian@charm.sh"
